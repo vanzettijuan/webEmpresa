@@ -8,5 +8,15 @@
 </head>
 <body>
 	<div id="cuerpo">
-		<div id="header">asdfasdf</div>
+		<div id="header">
+			<div id="menu">
+			   
+		    </div>
+		    <div id="logo">
+		    	<img src="<?=$ruta?>img/LogoNuevo.jpg">
+		    </div>
+		     <div id="membrete">
+			
+		    </div>
+		</div>
 

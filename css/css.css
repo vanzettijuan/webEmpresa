@@ -21,8 +21,32 @@ body{
 }
 #header{
     position:absolute;
-    margin: 0 auto auto 0;
+    margin: 15px auto auto 0;
     width:1024px;
     height:230px;
     background-color:blue;
+}
+
+#logo{
+	position:absolute;
+    margin: 15px auto auto 0;
+    width:200px;
+    height:200px;
+    background-color:red;
+}
+#membrete{
+	position:absolute;
+    margin: 15px auto auto 250px;
+    width:200px;
+    height:200px;
+    background-color:yellow;
+}
+
+#footer{
+	position:absolute;
+    margin: auto auto 0 12px;
+    width:1000px;
+    height:50px;
+    background-color:yellow;
+    bottom:5px;
 }
