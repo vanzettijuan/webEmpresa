@@ -47,6 +47,6 @@ body{
     margin: auto auto 0 12px;
     width:1000px;
     height:50px;
-    background-color:yellow;
+   /* background-color:yellow;*/
     bottom:5px;
 }
