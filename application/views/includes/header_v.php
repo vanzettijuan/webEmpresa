@@ -13,7 +13,7 @@
 			<div id="menu">
 				<ul id="sample-menu-1" class="sf-menu">
 					<li class="current">
-						<a href="#a">menu item</a>
+						<a href="#a">Empresa</a>
 						<ul>
 							<li>
 
