@@ -11,18 +11,6 @@
 	<div id="cuerpo">
 		<div id="header">
 			<div id="menu">
-			               <ul class="sampleAnchors">
-                <li><a href="#sample1">basic style</a></li>
-                <li><a href="#sample2">with BgIframe</a></li>
-                <li><a href="#sample3">vertical style</a></li>
-                <li><a href="#sample4">nav-bar style</a></li>
-                <li><a href="#sample5">with Supersubs</a></li>
-
-            </ul>
-     
-
-       		<div id="sample1" class="sampleTabContent">
-				<h2>The result:</h2>
 				<ul id="sample-menu-1" class="sf-menu">
 					<li class="current">
 						<a href="#a">menu item</a>
