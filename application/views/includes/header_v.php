@@ -12,118 +12,43 @@
 		<div id="header">
 			<div id="menu">
 				<ul id="sample-menu-1" class="sf-menu">
+					<li>
+						<a href="#">Inicio</a>
+				   </li>
+
 					<li class="current">
 						<a href="#a">Empresa</a>
 						<ul>
 							<li>
-
-								<a href="#aa">menu item</a>
+								<a href="#aa">¿ Quiénes Somos ?</a>
 							</li>
 							<li class="current">
-								<a href="#ab">menu item</a>
-								<ul>
-									<li class="current"><a href="#">menu item</a></li>
-									<li><a href="#aba">menu item</a></li>
-
-									<li><a href="#abb">menu item</a></li>
-									<li><a href="#abc">menu item</a></li>
-									<li><a href="#abd">menu item</a></li>
-								</ul>
+								<a href="#ab">Nuestra Visión</a>
 							</li>
 							<li>
-								<a href="#">menu item</a>
-
-								<ul>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-
-								</ul>
-							</li>
-							<li>
-								<a href="#">menu item</a>
-								<ul>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-								</ul>
+								<a href="#">Nuestra Misión</a>
 							</li>
 						</ul>
 					</li>
-
 					<li>
-						<a href="#">menu item</a>
-					</li>
-					<li>
-						<a href="#">menu item</a>
+						<a href="#">Áreas de Negocios</a>
 						<ul>
 							<li>
-								<a href="#">menu item</a>
-
-								<ul>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-
-								</ul>
+								<a href="#">Gestión Ligas de Fútbol</a>
 							</li>
 							<li>
-								<a href="#">menu item</a>
-								<ul>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-								</ul>
+								<a href="#">Gestión Comercial</a>
 							</li>
 							<li>
-								<a href="#">menu item</a>
-
-								<ul>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-
-								</ul>
+								<a href="#">Gestión de la Producción</a>
 							</li>
 							<li>
-								<a href="#">menu item</a>
-								<ul>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">menu item</a>
-
-								<ul>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-									<li><a href="#">menu item</a></li>
-
-								</ul>
+								<a href="#">Desarrollo Web</a>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="#">menu item</a>
+						<a href="#">Conctáctenos</a>
 					</li>	
 				</ul>
 		    </div>
@@ -131,10 +56,10 @@
 		    	<img src="<?=$ruta?>img/LogoNuevo.jpg">
 		    </div>
 		     <div id="membrete">
-
-
-		     	   Sistems js 
-			
+	    		<div align="center">
+	    		<img src="<?=$ruta?>img/membrete1.jpg">
+	    		<img src="<?=$ruta?>img/membrete2.jpg">
+	    		</div>
 		    </div>
 		</div>
 

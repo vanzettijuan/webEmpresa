@@ -29,8 +29,8 @@ body{
     position:absolute;
     margin: 10px auto auto 0;
     width:1024px;
-    height:230px;
-    background-color:blue;
+    height:250px;
+    background-color:white;
 }
 
 #logo{
@@ -38,21 +38,21 @@ body{
     margin: 5px auto auto 0;
     width:257px;
     height:178px;
-    background-color:red;
+    background-color:#DBDBDB;
 }
 #membrete{
 	position:absolute;
     margin: 5px auto auto 280px;
     width:730px;
     height:178px;
-    background-color:yellow;
+    background-color:white;
 }
 #menu{
     position:absolute;
     margin: 200px auto auto 0px;
     width:1010px;
-    height:28px;
-    background-color:yellow;
+    height:50px;
+    background-color:white;
 }
 #footer{
 	position:absolute;
@@ -60,8 +60,8 @@ body{
     width:1010px;
     height:40px;
     bottom:5px;
-    border: 12px groove green;
-    background-color:black;
+    border: 12px;
+    background-color:#DBDBDB;
     text-align: center;
 }
 
