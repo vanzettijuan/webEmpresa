@@ -23,14 +23,14 @@
 			<div id="menu">
 				<ul id="sample-menu-1" class="sf-menu">
 					<li>
-						<a href="#">Inicio</a>
+						<a href="<?= $url;?>">Inicio</a>
 				   </li>
 
 					<li class="current">
 						<a href="#a">Empresa</a>
 						<ul>
 							<li>
-								<a href="#aa">¿ Quiénes Somos ?</a>
+								<a href="<?= $url;?>/inicio/quienes">¿ Quiénes Somos ?</a>
 							</li>
 							<li class="current">
 								<a href="#ab">Nuestra Visión</a>
