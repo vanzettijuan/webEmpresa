@@ -10,6 +10,7 @@ body{
     width:auto;
     height:auto;
 	color:#FFF;
+    background-color:#bada55;
 }
 #cuerpo{
     position:relative;
@@ -30,7 +31,7 @@ body{
     margin: 10px auto auto 0;
     width:1024px;
     height:250px;
-    background-color:blue;
+   /* background-color:blue;*/
 }
 
 #logo{
@@ -70,10 +71,37 @@ body{
     position:absolute;
     margin: 260px auto auto 0;
     width:1024px;
+    max-width:1024px;
     /*height:250px;*/
-    background-color:red;
+   /* background-color:red;*/
+    max-height:500px;
+    overflow: hidden;
+    min-height:300px;
+   /*padding: 20px 0px 0px 0px*/
     
 }
+#columna_texto{
+    position:absolute;
+    margin-left:200px;
+    width:800px;
+    /*height:250px;*/
+    /*background-color:green;*/
+    max-height:500px;
+    overflow: hidden;
+    min-height:300px;
+      /*padding: 20px 0px 0px 0px*/
+}
+#caja_imagen{
+    position: absolute;
+    margin-top:20px;
+    margin-left:20px;
+    width:110px;
+    height:114px;
+   /* background-color:yellow;*/
+}
+h2{font-size:24px;}
+.fixh2{font-size:18px;}
+.negrita{font-weight:bold;}
 /*---Inicio menu
 -----------------------------------------------------------*/
 .sf-menu, .sf-menu * {
