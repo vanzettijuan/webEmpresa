@@ -10,6 +10,16 @@
 <body>
 	<div id="cuerpo">
 		<div id="header">
+           <div id="logo">
+		    	<img src="<?=$ruta?>img/LogoNuevo.jpg">
+		    </div>
+		     <div id="membrete">
+	    		<div align="center">
+	    		   <img src="<?=$ruta?>img/membrete1.jpg">
+	    	  	   <img src="<?=$ruta?>img/membrete2.jpg">
+	    		</div>
+		    </div>
+
 			<div id="menu">
 				<ul id="sample-menu-1" class="sf-menu">
 					<li>
@@ -52,14 +62,6 @@
 					</li>	
 				</ul>
 		    </div>
-		    <div id="logo">
-		    	<img src="<?=$ruta?>img/LogoNuevo.jpg">
-		    </div>
-		     <div id="membrete">
-	    		<div align="center">
-	    		<img src="<?=$ruta?>img/membrete1.jpg">
-	    		<img src="<?=$ruta?>img/membrete2.jpg">
-	    		</div>
-		    </div>
+		   
 		</div>
 

@@ -30,7 +30,7 @@ body{
     margin: 10px auto auto 0;
     width:1024px;
     height:250px;
-    background-color:white;
+    background-color:blue;
 }
 
 #logo{
@@ -66,7 +66,14 @@ body{
 }
 
 
-
+#contenido{
+    position:absolute;
+    margin: 260px auto auto 0;
+    width:1024px;
+    /*height:250px;*/
+    background-color:red;
+    
+}
 /*---Inicio menu
 -----------------------------------------------------------*/
 .sf-menu, .sf-menu * {
