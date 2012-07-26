@@ -1,3 +1,7 @@
+<!--div id="b">
+<img width="2010" height="2140" src="<?=$ruta?>img/tapiz/1.jpg">
+</div-->
+
 <div id="caja_imagen">
 <img width="110" height="114" src="<?=$ruta?>img/1.jpg">
 </div>

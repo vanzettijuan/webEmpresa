@@ -8,15 +8,15 @@
 	<link rel="stylesheet" href="<?=base_url();?>css/css.css">
 </head>
 <body>
+	<img src="<?=$ruta?>img/tapiz/bg.jpg" class="bg">
 	<div id="cuerpo">
 		<div id="header">
            <div id="logo">
-		    	<img src="<?=$ruta?>img/LogoNuevo.jpg">
+		    	<img src="<?=$ruta?>img/logo_nuevo.png">
 		    </div>
 		     <div id="membrete">
 	    		<div align="center">
-	    		   <img src="<?=$ruta?>img/membrete1.jpg">
-	    	  	   <img src="<?=$ruta?>img/membrete2.jpg">
+	    		   <img src="<?=$ruta?>img/soluciones_2.png">
 	    		</div>
 		    </div>
 
