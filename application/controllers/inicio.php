@@ -17,7 +17,9 @@ class Inicio extends CI_Controller
        $this->ruta = base_url();
        $this->url_site = site_url();
        $this->recurso['menu'] = "<script src='".$this->ruta."js/plugins/hoverIntent.js'></script>  <script src='".$this->ruta."js/plugins/superfish.js'></script>  <script src='".$this->ruta."js/plugins/supersubs.js'></script> ";
-       $this->recurso['slider'] = "<script src='".$this->ruta."js/plugins/jquery.bxSlider.min.js'></script> ";
+    
+       $this->recurso['carusel'] = "<script src='".$this->ruta."js/plugins/jquery.carouFredSel-5.6.4-packed.js'></script> ";
+	   $this->recurso['colorBox'] = "<script src='".$this->ruta."js/plugins/jquery.colorbox-min.js'></script> ";
 	}
 
 	public function index()
@@ -26,7 +28,7 @@ class Inicio extends CI_Controller
 		$data['contenido']="inicio_v";
         $data['ruta']= $this->ruta;
         $data['url'] =$this->url_site;
-		$data['js']= $this->recurso['menu']. $this->recurso['slider'];
+		$data['js']= $this->recurso['menu'].$this->recurso['colorBox'].$this->recurso['carusel'];
 
 		$this->load->view('includes/template_v',$data);
 		

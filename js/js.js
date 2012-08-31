@@ -1,7 +1,10 @@
  
  $(document).ready(function(){ 
        menu_principal();
-       slider_mineatura();
+       color_box();
+       carrusel();
+
+
   }); 
 
 
@@ -17,10 +20,22 @@
 
    }
 
+function carrusel(){
+$("#foo1").carouFredSel({
+  auto  : {
+    items       : 5,
+    duration    : 7500,
+    easing      : "linear",
+    pauseDuration : 0,
+    pauseOnHover  : "immediate"
+  }
+});
+}
 
- function slider_mineatura(){
-    $('#slider1').bxSlider({
-        displaySlideQty: 4,
-        moveSlideQty: 1
-     });
+function fiximg(){
+  $("#fiximg").addClass("fiximg");
+}
+
+  function color_box(){
+            $(".group1").colorbox({rel:'group1'});
   } 

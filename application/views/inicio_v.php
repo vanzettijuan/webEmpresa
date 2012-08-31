@@ -11,30 +11,32 @@
  </div>
  
 <div id="cajaSlider">
-	  <ul id="slider1">
-		  	<li>
-		      <img src="<?=$ruta?>img/t1.jpg">
-		  	</li>
-		  	<li>
-				<img src="<?=$ruta?>img/t2.jpg">
-		  	</li>
-		  	<li>
+	 <div class="image_carousel">
+        <div id="foo1">
+		  	 
+		  	  		<img src="<?=$ruta?>img/fiximg.png" id="fiximg">
+		  	 
+		  	  
+		      
+		  
+			<a class="group1" href="<?=$ruta?>img/tapiz/1.jpg" title="kkkkkkk.">
+		  	  		<img src="<?=$ruta?>img/t2.jpg">
+		  	 </a>
+		  
+		  <a class="group1" href="<?=$ruta?>img/tapiz/2.jpg" title="kkhhhkkkkk.">
 				<img src="<?=$ruta?>img/t3.jpg">
-		  	</li>
-		  	<li>
+				</a>
 				<img src="<?=$ruta?>img/t4.jpg">
-		  	</li>
-		  	<li>
+		  
 				<img src="<?=$ruta?>img/t5.jpg">
-		  	</li>
-		  	<li>
+		  	
 				<img src="<?=$ruta?>img/t6.jpg">
-		  	</li>
-		  	<li>
+		  	
 				<img src="<?=$ruta?>img/t7.jpg">
-		  	</li>
-		  	<li>
+		  
 				<img src="<?=$ruta?>img/t8.jpg">
-		  	</li>
-	  </ul>
+		  	
+	     </div>
+	  <div class="clearfix"></div>
+	  </div>
 </div>
