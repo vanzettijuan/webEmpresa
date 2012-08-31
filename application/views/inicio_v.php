@@ -10,9 +10,8 @@
   	Además JS ofrece la posibilidad de personalizar las distintas aplicaciones teniendo como premisa principal las necesidades del usurario. Se brinda también la combinación de aplicaciones de escritorio con un sitio web dinámico, permitiendo de esta forma la independencia del cliente para diseñarlo con la información que desea y al instante en que la necesita. </p>
  </div>
  
-  <div id="cajaSlider">
-     <div class="bx-wrapper">
-	  <ul id="slider1" >
+<div id="cajaSlider">
+	  <ul id="slider1">
 		  	<li>
 		      <img src="<?=$ruta?>img/t1.jpg">
 		  	</li>
@@ -38,8 +37,4 @@
 				<img src="<?=$ruta?>img/t8.jpg">
 		  	</li>
 	  </ul>
-
-	  <a class="bx-prev" href="">prev</a>
-      <a class="bx-next" href="">next</a>
-</div>
 </div>

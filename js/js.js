@@ -20,7 +20,7 @@
 
  function slider_mineatura(){
     $('#slider1').bxSlider({
-        displaySlideQty: 3,
+        displaySlideQty: 4,
         moveSlideQty: 1
      });
   } 
