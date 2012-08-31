@@ -11,8 +11,7 @@
  </div>
  
 <div id="cajaSlider">
- <div class="bx-wrapper">
-	  <ul id="slider1" >
+	  <ul id="slider1">
 		  	<li>
 		      <img src="<?=$ruta?>img/t1.jpg">
 		  	</li>
@@ -38,8 +37,4 @@
 				<img src="<?=$ruta?>img/t8.jpg">
 		  	</li>
 	  </ul>
-
-	  <a class="bx-prev" href="">prev</a>
-      <a class="bx-next" href="">next</a>
-</div>
 </div>

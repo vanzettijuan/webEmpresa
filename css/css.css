@@ -138,10 +138,11 @@ body{
 
 #cajaSlider{
     position:absolute;
-    margin: auto auto auto auto;
-    width:1024px;
+    margin: auto auto auto 100px;
+    width:auto;
     height:160px;
     top:390px;
+    /*overflow: hidden;*/
 
     /*background-color:yellow;*/
 }
@@ -394,8 +395,7 @@ li.sfHover > a > .sf-sub-indicator {
     color: #666;
     font-size: 12px;
 }
-
-
+ 
 
 /*---Fin Slide mineatura
 -----------------------------------------------------------*/
