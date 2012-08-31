@@ -1,6 +1,7 @@
  
  $(document).ready(function(){ 
        menu_principal();
+       slider_mineatura();
   }); 
 
 
@@ -15,3 +16,11 @@
                          // containing tabs for same reason. 
 
    }
+
+
+ function slider_mineatura(){
+    $('#slider1').bxSlider({
+        displaySlideQty: 3,
+        moveSlideQty: 1
+     });
+  } 

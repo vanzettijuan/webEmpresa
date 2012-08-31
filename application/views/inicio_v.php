@@ -11,5 +11,35 @@
  </div>
  
 <div id="cajaSlider">
+ <div class="bx-wrapper">
+	  <ul id="slider1" >
+		  	<li>
+		      <img src="<?=$ruta?>img/t1.jpg">
+		  	</li>
+		  	<li>
+				<img src="<?=$ruta?>img/t2.jpg">
+		  	</li>
+		  	<li>
+				<img src="<?=$ruta?>img/t3.jpg">
+		  	</li>
+		  	<li>
+				<img src="<?=$ruta?>img/t4.jpg">
+		  	</li>
+		  	<li>
+				<img src="<?=$ruta?>img/t5.jpg">
+		  	</li>
+		  	<li>
+				<img src="<?=$ruta?>img/t6.jpg">
+		  	</li>
+		  	<li>
+				<img src="<?=$ruta?>img/t7.jpg">
+		  	</li>
+		  	<li>
+				<img src="<?=$ruta?>img/t8.jpg">
+		  	</li>
+	  </ul>
 
+	  <a class="bx-prev" href="">prev</a>
+      <a class="bx-next" href="">next</a>
+</div>
 </div>
