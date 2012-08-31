@@ -5,27 +5,29 @@ font-weight:normal;
 src: url(../fonts/Cagliostro-Regular.ttf);
 }
 
+/* para imagen grande de fondo
 img.bg {
     /* Set rules to fill background */
-    min-height: 100%;
+/*    min-height: 100%;
     min-width: 1024px;
     
     /* Set up proportionate scaling */
-    width: 100%;
+ /*   width: 100%;
     height: auto;
     
     /* Set up positioning */
-    position: fixed;
+  /*  position: fixed;
     top: 0;
     left: 0;
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
-    img.bg {
+   /* img.bg {
         left: 50%;
         margin-left: -512px;   /* 50% */
-    }
+   /* }
 }
+*/
 
 
 body{
@@ -35,7 +37,7 @@ body{
     height:auto;
 	color:#FFF;
     /*background-color:#bada55;*/
- /*   background-image:url('../img/tapiz/33.jpg');*/
+   background-image:url('../img/tapiz/33.jpg'); /* si quiero grande esto lo comentop*/
 
 }
 
@@ -106,14 +108,15 @@ body{
     max-width:1024px;
     /*height:250px;*/
    /* background-color:red;*/
-    max-height:500px;
+    height:550px;
     overflow: hidden;
-    min-height:300px;
+    /*min-height:300px;
    /*padding: 20px 0px 0px 0px*/
     
 }
 #columna_texto{
     position:absolute;
+    margin-top:20px;
     margin-left:200px;
     width:800px;
     /*height:250px;*/
@@ -121,7 +124,7 @@ body{
     max-height:500px;
     overflow: hidden;
     min-height:300px;
-      /*padding: 20px 0px 0px 0px*/
+   /* padding: 120px 0px 0px 0px*/
 }
 #caja_imagen{
     position: absolute;
@@ -131,6 +134,25 @@ body{
     height:114px;
    /* background-color:yellow;*/
 }
+
+
+#cajaSlider{
+    position:absolute;
+    margin: auto auto auto auto;
+    width:1024px;
+    height:160px;
+    top:390px;
+
+    background-color:yellow;
+}
+
+
+
+
+
+
+
+
 h2{font-size:24px;}
 .fixh2{font-size:18px;}
 .negrita{font-weight:bold;}

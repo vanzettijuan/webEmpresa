@@ -8,7 +8,8 @@
 	<link rel="stylesheet" href="<?=base_url();?>css/css.css">
 </head>
 <body>
-	<img src="<?=$ruta?>img/tapiz/bg.jpg" class="bg">
+		<!--Es para la imagen grande"-->
+	<!--img src="<?=$ruta?>img/tapiz/33.jpg" class="bg"-->
 	<div id="cuerpo">
 		<div id="header">
            <div id="logo">
@@ -29,14 +30,14 @@
 					<li class="current">
 						<a href="#a">Empresa</a>
 						<ul>
-							<li>
-								<a href="<?= $url;?>/inicio/quienes">¿ Quiénes Somos ?</a>
+							<li class="current">
+								<a href="<?= $url;?>/inicio/quienesSomos">¿ Quiénes Somos ?</a>
 							</li>
 							<li class="current">
-								<a href="#ab">Nuestra Visión</a>
+								<a href="<?= $url;?>/inicio/nuestraVision">Nuestra Visión</a>
 							</li>
 							<li>
-								<a href="#">Nuestra Misión</a>
+								<a href="<?= $url;?>/inicio/nuestraMision">Nuestra Misión</a>
 							</li>
 						</ul>
 					</li>
@@ -44,19 +45,23 @@
 						<a href="#">Áreas de Negocios</a>
 						<ul>
 							<li>
-								<a href="#">Gestión Ligas de Fútbol</a>
+								<a href="<?= $url;?>/inicio/gestionLigasFutbol">Gestión Ligas de Fútbol</a>
 							</li>
 							<li>
-								<a href="#">Gestión Comercial</a>
+								<a href="<?= $url;?>/inicio/gestionComercial">Gestión Comercial</a>
 							</li>
 							<li>
-								<a href="#">Gestión de la Producción</a>
+								<a href="<?= $url;?>/inicio/gestionProduccion">Gestión de la Producción</a>
 							</li>
 							<li>
 								<a href="#">Desarrollo Web</a>
 							</li>
 						</ul>
 					</li>
+				    <li>
+						<a href="<?= $url;?>/inicio/tecnologias">Tecnologías</a>
+					</li>	
+
 					<li>
 						<a href="#">Conctáctenos</a>
 					</li>	
