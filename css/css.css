@@ -138,7 +138,7 @@ body{
 
 #cajaSlider{
     position:absolute;
-    margin: auto auto auto 100px;
+    margin: auto auto auto auto;
     width:auto;
     height:200px;
     top:350px;
@@ -336,7 +336,7 @@ li.sfHover > a > .sf-sub-indicator {
         #cboxError{padding:50px; border:1px solid #ccc;}
         #cboxLoadedContent{margin-bottom:28px;}
         #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
-        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#fff;}
         #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
         #cboxPrevious{position:absolute; bottom:0; left:0; background:url(../img/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
         #cboxPrevious:hover{background-position:-75px -25px;}
@@ -391,7 +391,7 @@ li.sfHover > a > .sf-sub-indicator {
 /* Carrusel */
 
 .image_carousel {
-    padding: 15px 0 15px 40px;
+    padding: 15px 0 15px 25px;
 }
 .image_carousel img {
     border: 1px solid #ccc;
@@ -407,11 +407,3 @@ li.sfHover > a > .sf-sub-indicator {
 }
 /* Fin  Carrusel */
 
-.fiximg{
-    border: none;
-    background-color: transparent;
-    display: block;
-    float: left;
-    margin: 0px;
-    padding: 0px;
-}

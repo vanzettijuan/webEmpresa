@@ -12,30 +12,28 @@
  
 <div id="cajaSlider">
 	 <div class="image_carousel">
-        <div id="foo1">
-		  	 
-		  	  		<img src="<?=$ruta?>img/fiximg.png" id="fiximg">
-		  	 
-		  	  
-		      
-		  
+        <div id="foo1">  	 		
+		 	<a class="group1" href="<?=$ruta?>img/tapiz/3.jpg" title="kkkkkkk.">
+		  	  	<img src="<?=$ruta?>img/t1.jpg">
+		  	</a>	  
+			
 			<a class="group1" href="<?=$ruta?>img/tapiz/1.jpg" title="kkkkkkk.">
-		  	  		<img src="<?=$ruta?>img/t2.jpg">
-		  	 </a>
-		  
-		  <a class="group1" href="<?=$ruta?>img/tapiz/2.jpg" title="kkhhhkkkkk.">
+		  		<img src="<?=$ruta?>img/t2.jpg">
+		  	</a>
+		  	
+		  	<a class="group1" href="<?=$ruta?>img/tapiz/2.jpg" title="kkhhhkkkkk.">
 				<img src="<?=$ruta?>img/t3.jpg">
-				</a>
-				<img src="<?=$ruta?>img/t4.jpg">
+			</a>
+			
+			<img src="<?=$ruta?>img/t4.jpg">
 		  
-				<img src="<?=$ruta?>img/t5.jpg">
+			<img src="<?=$ruta?>img/t5.jpg">
 		  	
-				<img src="<?=$ruta?>img/t6.jpg">
+			<img src="<?=$ruta?>img/t6.jpg">
 		  	
-				<img src="<?=$ruta?>img/t7.jpg">
+			<img src="<?=$ruta?>img/t7.jpg">
 		  
-				<img src="<?=$ruta?>img/t8.jpg">
-		  	
+			<img src="<?=$ruta?>img/t8.jpg">		  	
 	     </div>
 	  <div class="clearfix"></div>
 	  </div>

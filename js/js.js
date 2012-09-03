@@ -3,8 +3,6 @@
        menu_principal();
        color_box();
        carrusel();
-
-
   }); 
 
 
@@ -23,19 +21,16 @@
 function carrusel(){
 $("#foo1").carouFredSel({
   auto  : {
-    items       : 5,
+    items       : "minimum",
     duration    : 7500,
     easing      : "linear",
     pauseDuration : 0,
-    pauseOnHover  : "immediate"
+    pauseOnHover  : "immediate",
+    width         : "auto"
   }
 });
 }
 
-function fiximg(){
-  $("#fiximg").addClass("fiximg");
-}
-
-  function color_box(){
-            $(".group1").colorbox({rel:'group1'});
-  } 
+function color_box(){
+  $(".group1").colorbox({rel:'group1'});
+} 
