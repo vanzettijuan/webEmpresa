@@ -95,5 +95,41 @@ class Inicio extends CI_Controller
 		$this->load->view('includes/template_v',$data);
 	}
 
+  public function contacto()
+	{
+		$this->load->helper('form');
+		$this->load->helper('repopulate_form_txtarea');
+		$data =array();
+		$data['contenido']="contactos_v";
+        $data['ruta']= $this->ruta;
+		$data['url'] =$this->url_site;
+		$data['js']= $this->recurso['menu'];
+		$this->load->view('includes/template_v',$data);
+	}
+	
+	public function verificar(){
+		$this->load->helper('form');
 
+		$this->load->library('form_validation');
+
+		$this->form_validation->set_error_delimiters('<div class="error">', '</div>');
+		
+		$this->form_validation->set_rules('username', 'Username', 'required');
+		$this->form_validation->set_rules('email', 'Email', 'required|valid_email');
+
+		if ($this->form_validation->run() == FALSE)
+		{
+			$this->contacto();
+		}
+		else
+		{
+			$prueba=$_POST;
+			$this->enviarEmail($prueba);
+		}
+	}
+    
+    private function enviarEmail($prueba){
+    	//print_r($prueba);
+    	echo "\n{$prueba['email']}";
+    }
 }

@@ -64,6 +64,13 @@
 
 					<li>
 						<a href="#">Conctáctenos</a>
+
+					     <ul>
+							<li>
+								<a href="<?= $url;?>/inicio/contacto">Contacto</a>
+							</li>
+							
+						</ul>
 					</li>	
 				</ul>
 		    </div>
